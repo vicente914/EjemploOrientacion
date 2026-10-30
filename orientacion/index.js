@@ -1,6 +1,8 @@
+const btn = document.getElementById("btn");
+const caja1 = document.getElementById("caja1");
 
 function mostrarOrientacion(e){
-    document.getElementById("caja1").innerHTML = e.alpha + " - " + e.beta;
+  caja1.innerHTML = e.alpha + " - " + e.beta;
 }
 
 function onClick() {
