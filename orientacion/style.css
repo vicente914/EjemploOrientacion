@@ -1,0 +1,12 @@
+body{
+    display: flex;
+    justify-content: center;
+    width: 100vh;
+   
+}
+
+#caja1{
+    padding: 60px;
+    background-color: red;
+    border-radius: 75px;
+}
